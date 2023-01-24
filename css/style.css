@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satisfy', cursive;
+}
+
+/* HEADER */
+header{
+    height: 70px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+header img{
+    height: 100%;
+}
+/* HEADER */
+
+/* MAIN */
+.input-section{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #CFF5E7;
+}
+.new-container{
+    width: 320px;
+}
+.new-container form{
+    display: flex;
+    justify-content: space-between;
+}
+.new-container input{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #65C18C;
+}
+.new-container input::placeholder{
+    color: #65C18C;
+}
+.new-container button{
+    width: 100px;
+    background-color: #65C18C;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.activities-container{
+    display: flex;
+    justify-content: center;
+}
+.act-list{
+    margin: 50px 0;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    background-color: #DEF5E5;
+}
+.act-list li{
+    list-style-type: none;
+    border-bottom: 1px solid #65C18C;
+    margin-bottom: 15px;
+    padding: 0 15px 10px 0;
+    color: #3c9863;
+    display: flex;
+    justify-content: space-between;
+}
+.act-list li:hover{
+    cursor: pointer;
+}
+.line{
+    text-decoration: line-through;
+}
+.act-list li:nth-last-of-type(1){
+    margin-bottom: 0;
+}
+/* MAIN */
