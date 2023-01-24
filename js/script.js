@@ -33,6 +33,10 @@ createApp ({
 
     methods: {
 
+        removeToDo(index){
+            this.todos.splice(index, 1)
+        }
+
     }
 
 }).mount('#app');

@@ -73,6 +73,9 @@ header img{
 .line{
     text-decoration: line-through;
 }
+.no-line{
+    text-decoration: none;
+}
 .act-list li:nth-last-of-type(1){
     margin-bottom: 0;
 }

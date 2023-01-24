@@ -54,7 +54,11 @@
                         :class="{'line': todo.done}"
                         >
                             {{ todo.text }}
-                            <i class="fas fa-times"></i>
+
+                            <i 
+                            class="fas fa-times no-line"
+                            @click="removeToDo(index)"
+                            ></i>
                         </li>
 
 
