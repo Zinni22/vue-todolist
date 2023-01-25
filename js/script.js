@@ -44,8 +44,18 @@ createApp ({
 
                 this.newTodo = '';
             }
-            
         },
+
+        changeDone(todo){
+            if(todo.done == true){
+                console.log('da vero a falso');
+                todo.done = false;
+            }
+            else{
+                console.log('da falso a vero');
+                todo.done = true
+            }
+        }
 
     }
 

@@ -52,6 +52,7 @@
                         <li 
                         v-for="(todo, index) in todos"
                         :class="{'line': todo.done}"
+                        @click="changeDone(todo)"
                         >
                             {{ todo.text }}
 
