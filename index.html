@@ -36,8 +36,8 @@
 
             <section class="input-section">
                 <div class="new-container">
-                    <form action="">
-                        <input type="text" placeholder="Inserisci la nuova attività">
+                    <form action="" @submit.prevent="addToDo(newTodo)">
+                        <input type="text" placeholder="Inserisci la nuova attività" v-model="newTodo">
                         <button>
                             Aggiungi
                         </button>
